@@ -1,0 +1,61 @@
+# ────────────────────────────────────────────────────────────────
+#  .gitignore — AI Resume Analyzer
+#  Keeps secrets, personal files, and local junk out of GitHub.
+# ────────────────────────────────────────────────────────────────
+
+# ── Streamlit secrets (NEVER commit the real secrets file) ──────
+.streamlit/secrets.toml
+
+# ── API keys and environment files ─────────────────────────────
+.env
+.env.*
+*.env
+secrets.toml
+
+# ── Personal / sample resume PDFs ──────────────────────────────
+*.pdf
+
+# ── Scratch / temporary files ───────────────────────────────────
+temp.txt
+*.tmp
+*.log
+
+# ── Python cache ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# ── Virtual environments ─────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# ── macOS system files ───────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# ── VS Code local settings (optional — keep if you want) ─────────
+# .vscode/
+
+# ── Large local tool directories (not part of the project) ───────
+ffmpeg*/
+ffmpeg-*/
+
+# ── Jupyter notebooks checkpoints ────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Distribution / packaging ─────────────────────────────────────
+*.egg
+*.whl
+
+# ── Node.js dependencies ────────────────────────────────────────
+node_modules/

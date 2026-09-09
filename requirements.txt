@@ -1,0 +1,15 @@
+# ────────────────────────────────────────────────────────────────
+#  requirements.txt — AI Resume Analyzer
+#  Streamlit Community Cloud deployment
+# ────────────────────────────────────────────────────────────────
+
+# Web framework
+streamlit>=1.35.0
+
+# PDF text extraction
+pypdf>=4.0.0
+
+# Google Gemini API (new unified SDK — NOT the deprecated google-generativeai)
+google-genai>=1.0.0
+
+python-docx
