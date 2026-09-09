@@ -508,7 +508,7 @@ def _generate_with_retry(client, prompt: str):
     if last_exc is not None:
         raise last_exc
 
-raise RuntimeError("Gemini request failed after all retry attempts.")
+    raise RuntimeError("Gemini request failed after all retry attempts.")
 
 
 def analyze_resume(client, resume_text: str, job_description: str) -> dict:
